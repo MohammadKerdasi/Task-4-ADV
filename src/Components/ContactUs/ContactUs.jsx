@@ -15,7 +15,7 @@ const ContactUs = () => {
         title="responsive google map"
       ></iframe>
       <div className="container my-5 p-4">
-        <div className="d-flex justify-content-between flex-lg-row flex-column ">
+        <div className="d-flex justify-content-between align-items-center flex-lg-row flex-column ">
           <div className="row mt-2 gy-2 col-lg-6 col-12">
             {contactCardData.map((card, index) => (
               <ContactCard
