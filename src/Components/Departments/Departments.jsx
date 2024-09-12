@@ -1,6 +1,12 @@
 import { useState } from "react";
 import './Departments.css'
 
+import Dep_1 from './../../../public/img/Departments/departments-1.jpg'
+import Dep_2 from './../../../public/img/Departments/departments-2.jpg'
+import Dep_3 from './../../../public/img/Departments/departments-3.jpg'
+import Dep_4 from './../../../public/img/Departments/departments-4.jpg'
+import Dep_5 from './../../../public/img/Departments/departments-5.jpg'
+
 function Departments() {
   const tabs = [
     {
@@ -8,35 +14,35 @@ function Departments() {
       title: "Cardiology",
       description: 
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a magna lectus. Quisque at lacus ac quam fringilla tempor Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui distinctio earum accusantium similique tenetur odio, veritatis illum officiis. Temporibus aliquid ipsum consectetur, sapiente sunt nobis eveniet error earum explicabo nisi..",
-      img: "./../../../public/img/departments-1.jpg",
+      img: Dep_1,
     },
     {
       id: "neurology",
       title: "Neurology",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a magna lectus. Quisque at lacus ac quam fringilla tempor Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui distinctio earum accusantium similique tenetur odio, veritatis illum officiis. Temporibus aliquid ipsum consectetur, sapiente sunt nobis eveniet error earum explicabo nisi..",
-      img: "./../../../public/img/departments-2.jpg",
+      img: Dep_2,
     },
     {
       id: "hepatology",
       title: "Hepatology",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a magna lectus. Quisque at lacus ac quam fringilla tempor Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui distinctio earum accusantium similique tenetur odio, veritatis illum officiis. Temporibus aliquid ipsum consectetur, sapiente sunt nobis eveniet error earum explicabo nisi..",
-      img: "./../../../public/img/departments-3.jpg",
+      img: Dep_3,
     },
     {
       id: "pediatrics",
       title: "Pediatrics",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a magna lectus. Quisque at lacus ac quam fringilla tempor Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui distinctio earum accusantium similique tenetur odio, veritatis illum officiis. Temporibus aliquid ipsum consectetur, sapiente sunt nobis eveniet error earum explicabo nisi..",
-      img: "./../../../public/img/departments-4.jpg",
+      img: Dep_4,
     },
     {
       id: "ophthalmologists",
       title: "Ophthalmologists",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a magna lectus. Quisque at lacus ac quam fringilla tempor Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui distinctio earum accusantium similique tenetur odio, veritatis illum officiis. Temporibus aliquid ipsum consectetur, sapiente sunt nobis eveniet error earum explicabo nisi..",
-      img: "./../../../public/img/departments-5.jpg",
+      img: Dep_5,
     },
   ];
 
