@@ -28,7 +28,7 @@ const ContactUs = () => {
             ))}
           </div>
           <div className="mt-3 col-lg-6 col-12 mk-shadow p-4">
-            <Form>
+            <Form className="container">
               <Row>
                 <Form.Group
                   className="my-2"
