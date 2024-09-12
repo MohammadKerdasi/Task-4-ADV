@@ -7,11 +7,11 @@ const NavBar = () => {
     <>
       <Navbar style={{fontFamily : 'var(--third-font)'}} expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#">
+          <Navbar.Brand style={{flexGrow : '1'}} href="#">
             <img className="Mk-logo" style={{ width: "120px" }} src={Logo} alt="" />
           </Navbar.Brand>
-          <div className="d-flex justify-content-end">
           <Navbar.Toggle aria-controls="navbarScroll" />
+          <div className="d-flex justify-content-end">
             <Navbar.Collapse className="justify-content-end" id="navbarScroll">
               <Nav style={{ fontSize: "14px", fontWeight: "500" }} navbarScroll>
                 <Nav.Link className="p-3" href="#home">
