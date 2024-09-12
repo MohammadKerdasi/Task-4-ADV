@@ -9,27 +9,27 @@ const servicesData = [
     },
     {
         icon : faPills,
-        title : 'Nesciunt Mete',
+        title : 'Eosle Commodi',
         desc : 'Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.',
     },
     {
         icon : faHospitalUser,
-        title : 'Nesciunt Mete',
+        title : 'Ledo Markt',
         desc : 'Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.',
     },
     {
         icon : faDna,
-        title : 'Nesciunt Mete',
+        title : 'Asperiores Commodit',
         desc : 'Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.',
     },
     {
         icon : faWheelchair,
-        title : 'Nesciunt Mete',
+        title : 'Velit Doloremque',
         desc : 'Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.',
     },
     {
         icon : faNotesMedical,
-        title : 'Nesciunt Mete',
+        title : 'Dolori Architecto',
         desc : 'Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.',
     },
 ]
