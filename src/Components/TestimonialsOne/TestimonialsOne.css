@@ -104,11 +104,11 @@
 @media (max-width:576px) {
   .testimonial-container
   {
-    height: 420px;
+    height: 450px;
   }
   .testimonial-upper p 
   {
-    font-size: 13px !important;
+    font-size: 12px !important;
   }
   
   
