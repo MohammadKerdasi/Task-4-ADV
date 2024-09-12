@@ -4,6 +4,12 @@ import "./TestimonialsOne.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 
+import Testimonial_img_1 from './../../../public/img/testimonials/testimonials-1.jpg'
+import Testimonial_img_2 from './../../../public/img/testimonials/testimonials-2.jpg'
+import Testimonial_img_3 from './../../../public/img/testimonials/testimonials-3.jpg'
+import Testimonial_img_4 from './../../../public/img/testimonials/testimonials-4.jpg'
+import Testimonial_img_5 from './../../../public/img/testimonials/testimonials-5.jpg'
+
 function TestimonialsOne() {
   const [index, setIndex] = useState(0);
   const [itemsPerSlide, setItemsPerSlide] = useState(1);
@@ -11,35 +17,35 @@ function TestimonialsOne() {
   
   const testimonials = [
     {
-      img: "testimonials-1.jpg",
+      img: Testimonial_img_1,
       quote:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem odit aut obcaecati quisquam amet ad, facilis ex voluptatem libero quod eum, ullam voluptates corporis explicabo molestiae distinctio culpa nihil!",
       name: "Saul Goodman",
       title: "Ceo & Founder",
     },
     {
-      img: "testimonials-2.jpg",
+      img: Testimonial_img_2,
       quote:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem odit aut obcaecati quisquam amet ad, facilis ex voluptatem libero quod eum, ullam voluptates corporis explicabo molestiae distinctio culpa nihil!",
       name: "Sara Wilsson",
       title: "Designer",
     },
     {
-      img: "testimonials-3.jpg",
+      img: Testimonial_img_3,
       quote:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem odit aut obcaecati quisquam amet ad, facilis ex voluptatem libero quod eum, ullam voluptates corporis explicabo molestiae distinctio culpa nihil!",
       name: "Jena Karlis",
       title: "Store Owner",
     },
     {
-      img: "testimonials-4.jpg",
+      img: Testimonial_img_4,
       quote:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem odit aut obcaecati quisquam amet ad, facilis ex voluptatem libero quod eum, ullam voluptates corporis explicabo molestiae distinctio culpa nihil!",
       name: "Matt Brandon",
       title: "Freelancer",
     },
     {
-      img: "testimonials-5.jpg",
+      img: Testimonial_img_5,
       quote:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem odit aut obcaecati quisquam amet ad, facilis ex voluptatem libero quod eum, ullam voluptates corporis explicabo molestiae distinctio culpa nihil!",
       name: "John Larson",
@@ -118,7 +124,7 @@ function TestimonialsOne() {
                       <div className="ImageWithDesc">
                         <div className="testimonial-image">
                           <img
-                            src={`/img/testimonials/${testimonial.img}`}
+                            src={testimonial.img}
                             alt={testimonial.name}
                             className="rounded-circle border border-4 border-white"
                           />

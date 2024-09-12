@@ -2,6 +2,15 @@ import { useState, useEffect } from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import "./Slider.css";
 
+import Gallary_imgs_1 from './../../../public/img/gallery/gallery-1.jpg'
+import Gallary_imgs_2 from './../../../public/img/gallery/gallery-2.jpg'
+import Gallary_imgs_3 from './../../../public/img/gallery/gallery-3.jpg'
+import Gallary_imgs_4 from './../../../public/img/gallery/gallery-4.jpg'
+import Gallary_imgs_5 from './../../../public/img/gallery/gallery-5.jpg'
+import Gallary_imgs_6 from './../../../public/img/gallery/gallery-6.jpg'
+import Gallary_imgs_7 from './../../../public/img/gallery/gallery-7.jpg'
+import Gallary_imgs_8 from './../../../public/img/gallery/gallery-8.jpg'
+
 function Slider() {
   const [index, setIndex] = useState(0);
   const [itemsPerSlide, setItemsPerSlide] = useState(1);
@@ -10,31 +19,31 @@ function Slider() {
   const imageSlider = [
       { 
         
-        img: "./../../public/img/gallery/gallery-1.jpg"
+        img: Gallary_imgs_1
       },
       { 
         
-        img: "./../../public/img/gallery/gallery-2.jpg" 
+        img: Gallary_imgs_2
       },
       { 
         
-        img: "./../../public/img/gallery/gallery-3.jpg" 
+        img: Gallary_imgs_3
       },
       {  
 
-       img: "./../../public/img/gallery/gallery-4.jpg" 
+       img: Gallary_imgs_4
       },
       { 
-        img: "./../../public/img/gallery/gallery-5.jpg" 
+        img: Gallary_imgs_5 
       },
       { 
-        img: "./../../public/img/gallery/gallery-6.jpg"
+        img: Gallary_imgs_6
       },
       {
-        img: "./../../public/img/gallery/gallery-7.jpg" 
+        img :Gallary_imgs_7 
       },
       { 
-        img: "./../../public/img/gallery/gallery-8.jpg" 
+        img: Gallary_imgs_8
       },
   ];
 
