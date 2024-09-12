@@ -1,0 +1,8 @@
+.Mk-playIcon
+{
+    transition: all 0.5s ease;
+}
+.Mk-playIcon:hover
+{
+    transform: rotate(160deg);
+}

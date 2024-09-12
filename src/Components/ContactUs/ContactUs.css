@@ -1,0 +1,12 @@
+
+textarea::placeholder
+{
+    padding: 0px !important;
+    color: #d9d9d9 !important;
+}
+.Mk-ContactBtn
+{
+    font-family: var(--first-font);
+    border-radius: 5px;
+    background-color: var(--bs-indigo) ;
+}

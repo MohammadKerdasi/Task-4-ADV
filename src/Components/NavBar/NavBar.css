@@ -1,0 +1,36 @@
+nav .nav-link
+{
+    border: 0px;
+}
+@media (max-width:1200px){
+    .nav-link{
+        font-size: 11px !important;
+    }
+    .Mk-btn 
+    {
+        font-size: 11px !important;
+    }
+    .navbar-toggler
+    {
+        font-size: 11px;
+    
+    }
+}
+@media (max-width:992px){
+    .Mk-btn 
+    {
+        margin-left: 5px !important;
+    }
+}
+
+@media (max-width:576px)
+{
+    .Mk-logo
+    {
+        width: 90px !important;
+    }
+    .Mk-btn 
+    {
+        font-size: 8px !important;
+    }
+}

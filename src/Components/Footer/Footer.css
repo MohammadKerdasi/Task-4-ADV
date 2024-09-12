@@ -1,0 +1,11 @@
+.Mk-listItem
+{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #444444;
+    border-radius: 50%;
+}
+.mk-border
+{
+    border-top: 1px solid rgb(185, 185, 185) !important ;
+}

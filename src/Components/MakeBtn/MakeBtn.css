@@ -1,0 +1,20 @@
+@media (max-width:1200px){
+    .Mk-btn 
+    {
+        font-size: 11px !important;
+    }
+}
+@media (max-width:992px){
+    .Mk-btn 
+    {
+        margin-left: 5px !important;
+    }
+}
+
+@media (max-width:576px)
+{
+    .Mk-btn 
+    {
+        font-size: 8px !important;
+    }
+}

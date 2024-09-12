@@ -1,0 +1,14 @@
+p
+{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: var(--first-font);
+    color: var(--bs-lightgray);
+}
+h3
+{
+    font-family: Raleway, sans-serif;
+    color: var(--bs-lightgray) !important;
+    font-weight: 600;
+    font-size: 26px;
+}

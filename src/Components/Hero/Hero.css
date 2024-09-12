@@ -1,0 +1,54 @@
+.border-top
+{
+    border-color: var(--bs-indigo) !important;
+}
+.carousel-control-next-icon
+{
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    filter: grayscale(1) !important;
+}
+.carousel-control-prev-icon
+{
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    filter: grayscale(1) !important;
+}
+
+[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target]
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 1;
+    transition: 0.3s all ease;
+}
+[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target].active
+{
+    background-color: var(--bs-indigo);
+}
+[data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target]:hover
+{
+    background-color: var(--bs-indigo);
+}
+
+
+@media (max-width:576px){
+    .Mk-HeroTexts h2 
+    {
+        font-size: 20px !important;
+    }
+    .Mk-HeroTexts p 
+    {
+        font-size: 14px !important;
+    }
+    .CaptionSlider 
+    {
+        bottom: 5rem !important;
+    }
+}

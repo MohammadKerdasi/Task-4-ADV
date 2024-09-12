@@ -1,0 +1,28 @@
+.Mk-Adv
+{
+    width: 200px;
+    position: absolute;
+    color: white;
+    background-color: #3fbbc0;
+    text-align: center;
+    top: 20px;
+    right: -70px;
+    transform: rotate(45deg);
+
+}
+ sub
+{
+    bottom: 10px;
+}
+.Mk-BuyNow
+{
+    background: var(--bs-indigo);
+    color: white  ;
+    display: block;
+    margin: 0 auto;
+    padding: 8px 30px ;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+}

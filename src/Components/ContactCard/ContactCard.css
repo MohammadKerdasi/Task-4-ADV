@@ -1,0 +1,36 @@
+.Mk-ContactIcon
+{
+    width: 60px;
+    height:  60px;
+    border: 2px dotted #3fbbc0;
+    border-radius: 50%;
+}
+.mk-shadow
+{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:576px) {
+    .Mk-IconSize
+    {
+        font-size: 20px;
+    }
+    .Mk-ContactIcon
+    {
+        width: 45px;
+        height: 45px;
+    }
+    .mk-shadow h3 
+    {
+        font-size: 16px;
+    }
+    .mk-shadow p 
+    {
+        font-size: 10px;
+    }
+    .mk-shadow 
+    {
+        padding: 10px 5px    !important;
+    }
+    .CaptionSlider 
+}
